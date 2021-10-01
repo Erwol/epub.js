@@ -267,6 +267,7 @@ class Snap {
 	}
 
 	smoothScrollTo(destination) {
+		alert('snap')
 		const deferred = new defer();
 		const start = this.scrollLeft;
 		const startTime = this.now();
